@@ -22,10 +22,6 @@
     "cordova-plugin-geolocation": {
       "PACKAGE_NAME": "com.parking.tunisie"
     },
-    "cordova-plugin-googlemaps": {
-      "API_KEY_FOR_ANDROID": "AIzaSyDaOhkS6REe5e7CKZvDeuiC_AYaQmJgKvg",
-      "PACKAGE_NAME": "com.parking.tunisie"
-    },
     "cordova-plugin-inappbrowser": {
       "PACKAGE_NAME": "com.parking.tunisie"
     },
@@ -42,6 +38,10 @@
       "PACKAGE_NAME": "com.parking.tunisie"
     },
     "uk.co.workingedge.phonegap.plugin.launchnavigator": {
+      "PACKAGE_NAME": "com.parking.tunisie"
+    },
+    "cordova-plugin-googlemaps": {
+      "API_KEY_FOR_ANDROID": "AIzaSyDaOhkS6REe5e7CKZvDeuiC_AYaQmJgKvg",
       "PACKAGE_NAME": "com.parking.tunisie"
     }
   },

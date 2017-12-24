@@ -86,6 +86,63 @@ module.exports = [
     "runs": true
   },
   {
+    "id": "cordova-plugin-inappbrowser.inappbrowser",
+    "file": "plugins/cordova-plugin-inappbrowser/www/inappbrowser.js",
+    "pluginId": "cordova-plugin-inappbrowser",
+    "clobbers": [
+      "cordova.InAppBrowser.open",
+      "window.open"
+    ]
+  },
+  {
+    "id": "cordova-plugin-insomnia.Insomnia",
+    "file": "plugins/cordova-plugin-insomnia/www/Insomnia.js",
+    "pluginId": "cordova-plugin-insomnia",
+    "clobbers": [
+      "window.plugins.insomnia"
+    ]
+  },
+  {
+    "id": "cordova-plugin-splashscreen.SplashScreen",
+    "file": "plugins/cordova-plugin-splashscreen/www/splashscreen.js",
+    "pluginId": "cordova-plugin-splashscreen",
+    "clobbers": [
+      "navigator.splashscreen"
+    ]
+  },
+  {
+    "id": "cordova-plugin-statusbar.statusbar",
+    "file": "plugins/cordova-plugin-statusbar/www/statusbar.js",
+    "pluginId": "cordova-plugin-statusbar",
+    "clobbers": [
+      "window.StatusBar"
+    ]
+  },
+  {
+    "id": "uk.co.workingedge.phonegap.plugin.launchnavigator.Common",
+    "file": "plugins/uk.co.workingedge.phonegap.plugin.launchnavigator/www/common.js",
+    "pluginId": "uk.co.workingedge.phonegap.plugin.launchnavigator",
+    "clobbers": [
+      "launchnavigator"
+    ]
+  },
+  {
+    "id": "uk.co.workingedge.phonegap.plugin.launchnavigator.LocalForage",
+    "file": "plugins/uk.co.workingedge.phonegap.plugin.launchnavigator/www/localforage.v1.5.0.min.js",
+    "pluginId": "uk.co.workingedge.phonegap.plugin.launchnavigator",
+    "clobbers": [
+      "localforage"
+    ]
+  },
+  {
+    "id": "uk.co.workingedge.phonegap.plugin.launchnavigator.LaunchNavigator",
+    "file": "plugins/uk.co.workingedge.phonegap.plugin.launchnavigator/www/android/launchnavigator.js",
+    "pluginId": "uk.co.workingedge.phonegap.plugin.launchnavigator",
+    "merges": [
+      "launchnavigator"
+    ]
+  },
+  {
     "id": "cordova-plugin-googlemaps.BaseClass",
     "file": "plugins/cordova-plugin-googlemaps/www/BaseClass.js",
     "pluginId": "cordova-plugin-googlemaps",
@@ -254,63 +311,6 @@ module.exports = [
     "clobbers": [
       "plugin.google.maps"
     ]
-  },
-  {
-    "id": "cordova-plugin-inappbrowser.inappbrowser",
-    "file": "plugins/cordova-plugin-inappbrowser/www/inappbrowser.js",
-    "pluginId": "cordova-plugin-inappbrowser",
-    "clobbers": [
-      "cordova.InAppBrowser.open",
-      "window.open"
-    ]
-  },
-  {
-    "id": "cordova-plugin-insomnia.Insomnia",
-    "file": "plugins/cordova-plugin-insomnia/www/Insomnia.js",
-    "pluginId": "cordova-plugin-insomnia",
-    "clobbers": [
-      "window.plugins.insomnia"
-    ]
-  },
-  {
-    "id": "cordova-plugin-splashscreen.SplashScreen",
-    "file": "plugins/cordova-plugin-splashscreen/www/splashscreen.js",
-    "pluginId": "cordova-plugin-splashscreen",
-    "clobbers": [
-      "navigator.splashscreen"
-    ]
-  },
-  {
-    "id": "cordova-plugin-statusbar.statusbar",
-    "file": "plugins/cordova-plugin-statusbar/www/statusbar.js",
-    "pluginId": "cordova-plugin-statusbar",
-    "clobbers": [
-      "window.StatusBar"
-    ]
-  },
-  {
-    "id": "uk.co.workingedge.phonegap.plugin.launchnavigator.Common",
-    "file": "plugins/uk.co.workingedge.phonegap.plugin.launchnavigator/www/common.js",
-    "pluginId": "uk.co.workingedge.phonegap.plugin.launchnavigator",
-    "clobbers": [
-      "launchnavigator"
-    ]
-  },
-  {
-    "id": "uk.co.workingedge.phonegap.plugin.launchnavigator.LocalForage",
-    "file": "plugins/uk.co.workingedge.phonegap.plugin.launchnavigator/www/localforage.v1.5.0.min.js",
-    "pluginId": "uk.co.workingedge.phonegap.plugin.launchnavigator",
-    "clobbers": [
-      "localforage"
-    ]
-  },
-  {
-    "id": "uk.co.workingedge.phonegap.plugin.launchnavigator.LaunchNavigator",
-    "file": "plugins/uk.co.workingedge.phonegap.plugin.launchnavigator/www/android/launchnavigator.js",
-    "pluginId": "uk.co.workingedge.phonegap.plugin.launchnavigator",
-    "merges": [
-      "launchnavigator"
-    ]
   }
 ];
 module.exports.metadata = 
@@ -324,13 +324,13 @@ module.exports.metadata =
   "es6-promise-plugin": "4.1.0",
   "cordova-plugin-geofence": "0.5.0",
   "cordova-plugin-geolocation": "2.4.2",
-  "cordova-plugin-googlemaps": "2.1.1",
   "cordova-plugin-inappbrowser": "1.7.1",
   "cordova-plugin-insomnia": "4.3.0",
   "cordova-plugin-splashscreen": "4.0.2",
   "cordova-plugin-statusbar": "2.2.2",
   "cordova-plugin-whitelist": "1.3.2",
-  "uk.co.workingedge.phonegap.plugin.launchnavigator": "4.0.7"
+  "uk.co.workingedge.phonegap.plugin.launchnavigator": "4.0.7",
+  "cordova-plugin-googlemaps": "2.1.1"
 };
 // BOTTOM OF METADATA
 });

@@ -253,10 +253,10 @@ dependencies {
     // SUB-PROJECT DEPENDENCIES START
     debugCompile(project(path: "CordovaLib", configuration: "debug"))
     releaseCompile(project(path: "CordovaLib", configuration: "release"))
-    compile "com.google.android.gms:play-services-location:+"
     compile "com.google.code.gson:gson:2.6.2"
-    compile "com.google.android.gms:play-services-maps:+"
     compile "com.squareup.okhttp3:okhttp:3+"
+    compile "com.google.android.gms:play-services-maps:11.8.0"
+    compile "com.google.android.gms:play-services-location:11.8.0"
     // SUB-PROJECT DEPENDENCIES END
 }
 
